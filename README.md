@@ -1,7 +1,7 @@
 Local Reverse Proxy
 ===
 
-Running nginx as reverse proxy in front of web and api server.
+Running nginx as reverse proxy in front of web server.
 
 ## Feature
 
@@ -27,11 +27,9 @@ Running nginx as reverse proxy in front of web and api server.
       |Reverse Proxy|
       +-------------+
              |
-+-----+      |          +-----+
-| Web <--/*--+-/api-----> API |
-+-----+        /swagger +-----+
-               /assets
-               /docs
+          +-----+
+          | Web |
+          +-----+
 ```
 
 1. Stop service
